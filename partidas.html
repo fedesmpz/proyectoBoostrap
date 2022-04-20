@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ludicus - Juegos de Mesa</title>
     <link rel="shortcut icon" type="image/png" href="./media/varios/logo_baja.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
@@ -34,7 +35,7 @@
         </div>
     </header>
 
-    <main>
+    <main class="center">
         <div><h2><a href="./partidas.html" class="noDecoracion letraComica">Mirá partidas de tus juegos</a></h2></div>
         <div class="grid2x2">
             <div><h2 class="noDecoracion letraTexto">Aventureros Al Tren</h2><video src="./media/video/aventureros.mp4" width="300px" controls></video></div>
@@ -43,23 +44,21 @@
             <div><h2 class="noDecoracion letraTexto">Musa</h2><video src="./media/video/musa.mp4" width="300px" controls></video></div>
         </div>
     </main>
-    <footer class="gridFooter">
-
-        <div class="logo suscripcion"> <!-- suscripcion -->
-                <h2 class="letraComica">Suscribite</h2>
-                <br>
-                <p class="letraTexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores aperiam quam iusto, ex, laboriosam iste odio ratione libero cumque a impedit eveniet delectus beatae earum unde labore laborum odit quae?</p>
-                <br>
-                <form action="">
-                    <div>
-                    <input type="text" placeholder="Ingresá tu E-Mail" class="textoComico boton"> 
-                    <input type="submit" value="Suscribite" class="textoComico boton">   
-                    </div>
-
-                </form>
-        </div>
-        <div><!-- contacto y nosotros -->
-            <div class="logo contacto"><!-- contactanos -->
+    <footer class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6 logo suscripcion"> <!-- suscripcion -->
+                    <h2 class="letraComica">Suscribite</h2>
+                    <br>
+                    <p class="letraTexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores aperiam quam iusto, ex, laboriosam iste odio    ratione libero cumque a impedit eveniet delectus beatae earum unde labore laborum odit quae?</p>
+                    <br>
+                    <form action="">
+                        <div>
+                            <input type="text" placeholder="Ingresá tu E-Mail" class="textoComico boton"> 
+                            <input type="submit" value="Suscribite" class="textoComico boton">   
+                        </div>
+                    </form>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-6 logo contacto"><!-- contactanos -->
                 <h2 class="letraComica">Contactanos</h2>
                 <div>
                     <input type="text" placeholder="Ingresá tu Nombre" class="boton inputContacto">
@@ -71,10 +70,11 @@
                     <input type="submit" value="Enviar" class="boton textoComico">
                 </div>
             </div>
-            <div class="nosotros"><!-- nosotros -->
-                    <h2 class="letraComica">Nosotros</h2>
-                    <p class="letraTexto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatum consequatur iusto facilis quam necessitatibus. Deleniti sapiente totam magnam quidem, iure fuga vero minima cupiditate possimus, aperiam, neque amet! Enim.</p>
-            </div>
+        </div>
+        <br>
+        <div class="nosotros"><!-- nosotros -->
+            <h2 class="letraComica">Nosotros</h2>
+            <p class="letraTexto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatum consequatur iusto facilis quam necessitatibus. Deleniti sapiente totam magnam quidem, iure fuga vero minima cupiditate possimus, aperiam, neque amet! Enim.</p>
         </div>
     </footer>
 </body>
